@@ -45,7 +45,7 @@ while file_C.startswith(met_C) and file_P.startswith(met_P) is True:
        	WattCons_num = float((linecache.getline(WattCons,1)).replace((''.join([met_C,"("]))," ").replace("*W)"," ").strip())
        	WattProd_num = float((linecache.getline(WattProd,1)).replace((''.join([met_P,"("]))," ").replace("*W)"," ").strip())
 	time.sleep(0.2)
-	WattPrel_num = WattProd_num - WattCons_num
+	WattPrel_num = WattCons_num - WattProd_num
 	time.sleep(1)
        	chk()
         time.sleep(1)
@@ -72,7 +72,7 @@ while file_C.startswith(met_C) and file_P.startswith(met_P) is True:
 					WattCons_num = float((linecache.getline(WattCons,1)).replace((''.join([met_C,"("]))," ").replace("*W)"," ").strip())
         				WattProd_num = float((linecache.getline(WattProd,1)).replace((''.join([met_P,"("]))," ").replace("*W)"," ").strip())
 				        time.sleep(0.2)
-				        WattPrel_num = WattProd_num - WattCons_num
+				        WattPrel_num = WattCons_num - WattProd_num
 					chk()
                        	        	break
 
@@ -87,7 +87,7 @@ while file_C.startswith(met_C) and file_P.startswith(met_P) is True:
 				WattCons_num = float((linecache.getline(WattCons,1)).replace((''.join([met_C,"("]))," ").replace("*W)"," ").strip())
         			WattProd_num = float((linecache.getline(WattProd,1)).replace((''.join([met_P,"("]))," ").replace("*W)"," ").strip())
 			        time.sleep(0.2)
-			        WattPrel_num = WattProd_num - WattCons_num
+			        WattPrel_num = WattCons_num - WattProd_num
 				chk()
                         else:	
 				#routine Low Whitdrawal alarm end
@@ -101,7 +101,7 @@ while file_C.startswith(met_C) and file_P.startswith(met_P) is True:
 					WattCons_num = float((linecache.getline(WattCons,1)).replace((''.join([met_C,"("]))," ").replace("*W)"," ").strip())
         				WattProd_num = float((linecache.getline(WattProd,1)).replace((''.join([met_P,"("]))," ").replace("*W)"," ").strip())
         				time.sleep(0.2)
-				        WattPrel_num = WattProd_num - WattCons_num
+				        WattPrel_num = WattCons_num - WattProd_num
 					chk()
                                        	break
 	
@@ -116,7 +116,7 @@ while file_C.startswith(met_C) and file_P.startswith(met_P) is True:
 				WattCons_num = float((linecache.getline(WattCons,1)).replace((''.join([met_C,"("]))," ").replace("*W)"," ").strip())
         			WattProd_num = float((linecache.getline(WattProd,1)).replace((''.join([met_P,"("]))," ").replace("*W)"," ").strip())
         			time.sleep(0.2)
-			        WattPrel_num = WattProd_num - WattCons_num
+			        WattPrel_num = WattCons_num - WattProd_num
 				chk()
                         else:
 				#routine High Whitdrawal alarm end
@@ -130,7 +130,7 @@ while file_C.startswith(met_C) and file_P.startswith(met_P) is True:
 					WattCons_num = float((linecache.getline(WattCons,1)).replace((''.join([met_C,"("]))," ").replace("*W)"," ").strip())
 				        WattProd_num = float((linecache.getline(WattProd,1)).replace((''.join([met_P,"("]))," ").replace("*W)"," ").strip())
 				        time.sleep(0.2)
-				        WattPrel_num = WattProd_num - WattCons_num
+				        WattPrel_num = WattCons_num - WattProd_num
 					chk()
 	                               	break
 
@@ -140,7 +140,7 @@ while file_C.startswith(met_C) and file_P.startswith(met_P) is True:
 		WattCons_num = float((linecache.getline(WattCons,1)).replace((''.join([met_C,"("]))," ").replace("*W)"," ").strip())
         	WattProd_num = float((linecache.getline(WattProd,1)).replace((''.join([met_P,"("]))," ").replace("*W)"," ").strip())
         	time.sleep(0.2)
-	        WattPrel_num = WattProd_num - WattCons_num
+	        WattPrel_num = WattCons_num - WattProd_num
 		chk()
 
 #Routine reading file error
