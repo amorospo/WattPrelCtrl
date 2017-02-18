@@ -23,9 +23,9 @@ include '/var/www/MyScripts/WattPrelCtrl/VarOld.php';
   <input type="text" name="pwd" size="60" value="<?php echo $pwd;?>"><br><br>
   8 Inserisci gli indirizzi email dei destinatari dei messaggi di allarme (per inserire più indirizzi utilizzare la virgola senza spazi. Ad es.: email1@email.com,email2@email.com,ecc)<br>
   <input type="text" name="to_addrs" size="60" value="<?php echo $to_addrs;?>"><br><br>
-  9 Inserisci il valore in Watt sotto il quale inviare un messaggio di allarme impianto spento (default: 0 NON MODIFICABILE)<br>
+  9 Inserisci il valore in Watt sotto il quale inviare un messaggio di allarme impianto in prelievo spento (default: 0 NON MODIFICABILE)<br>
   <!--input type="text" name="Sw_Off" size="60" value="<?php echo $Sw_Off;?>"><br--!><br>
-  10 Inserisci il valore in Watt sotto il quale inviare un messaggio di allarme prelievo basso (default: 100)<br>
+  10 Inserisci il valore in Watt sotto il quale inviare un messaggio di allarme prelievo basso (i.e. immissione alta) (default: -3000)<br>
   <input type="text" name="LowW" size="60" value="<?php echo $LowW;?>"><br><br>
   11 Inserisci il valore in Watt sotto il quale inviare un messaggio di allarme prelievo alto (default: 3000)<br>
   <input type="text" name="HiW" size="60" value="<?php echo $HiW;?>"><br><br>
