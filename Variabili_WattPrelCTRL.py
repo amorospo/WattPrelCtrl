@@ -9,6 +9,6 @@ from_addr = "mail@gmail.com"
 pwd = "password"
 to_addrs = "mail@email.email"
 Sw_Off = 0
-LowW = 100
+LowW = -3000
 HiW = 3000
 lapse = 30
