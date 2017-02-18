@@ -1,6 +1,7 @@
 # WattPrelCtrl
-Electric power consumption monitoring
-Sistema di monitoraggio del consumo elettrico tramite invio di avvisi e allarmi via email. Basato sull'utilizzo di meterN e contatori SDM.
+Electric power withdrawal monitoring
+
+Sistema di monitoraggio del prelievo elettrico tramite invio di avvisi e allarmi via email. Basato sull'utilizzo di meterN e contatori SDM.
 
 Topic di riferimento: http://www.flanesi.it/forum/viewtopic.php?f=4&t=1916
 *******************************************************************************************************************
