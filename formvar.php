@@ -84,8 +84,8 @@ $apriw = fopen ("Variabili_WattPrelCTRL.py","w+");
 
 // Scrivo il file con le variabile che leggerà lo script
 fputs($apriw,'site = "' . $site . '"' . "\n");
-fputs($apriw,'WattPrel = "' . $WattCons . '"' . "\n");
-fputs($apriw,'met_W = "' . $met_C . '"' . "\n");
+fputs($apriw,'WattCons = "' . $WattCons . '"' . "\n");
+fputs($apriw,'met_C = "' . $met_C . '"' . "\n");
 fputs($apriw,'WattProd = "' . $WattProd . '"' . "\n");
 fputs($apriw,'met_P = "' . $met_P . '"' . "\n");
 fputs($apriw,'smtp_S = "' . $smtp_S . '"' . "\n");
@@ -109,8 +109,8 @@ echo 'Impossibile accedere al file di configurazione. <br><a href=\"javascript:h
 $apriw = fopen ("VarOld.php","w+");
 fputs($apriw,'<?php' . "\n");
 fputs($apriw,'$site = "' . $site . '";' . "\n");
-fputs($apriw,'$WattPrel = "' . $WattCons . '";' . "\n");
-fputs($apriw,'$met_W = "' . $met_C . '";' . "\n");
+fputs($apriw,'$WattCons = "' . $WattCons . '";' . "\n");
+fputs($apriw,'$met_C = "' . $met_C . '";' . "\n");
 fputs($apriw,'$WattProd = "' . $WattProd . '";' . "\n");
 fputs($apriw,'$met_P = "' . $met_P . '";' . "\n");
 fputs($apriw,'$smtp_S = "' . $smtp_S . '";' . "\n");
