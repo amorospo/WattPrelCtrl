@@ -8,13 +8,9 @@ Topic di riferimento: http://www.flanesi.it/forum/viewtopic.php?f=4&t=1916
 N.B.: 
 Prima di installare e far partire lo script bisogna settare meterN per creare anche il file temporaneo della produzione istantanea oltre a quello già creato dei consumi istantanei. Per farlo basta editare il file /var/www/comapps/pool123s.php aggiungendo verso la fine dello stesso la riga:
 
-file_put_contents("/run/shm/prodpower$METERID.txt", "$METERID($GP*W\n");
-
-tra la riga:         if ($argv[1] == 'power') {
-
-e la riga:           echo "$METERID($GP*W)\n";
-
-
+file_put_contents("/run/shm/prodpower$METERID.txt", "$METERID($GP*W\n");<br><br>
+tra la riga______________________: if ($argv[1] == 'power') {<br>
+e la riga________________________: echo "$METERID($GP*W)\n";<br><br>
 Per installare lo script:
 
 sudo -s<br>
