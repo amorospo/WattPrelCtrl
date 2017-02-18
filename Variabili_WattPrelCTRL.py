@@ -1,6 +1,6 @@
 site = "Mio sito di prova"
-WattPrel = "/dev/shm/metern2.txt"
-met_W = "2"
+WattCons = "/dev/shm/metern2.txt"
+met_C = "2"
 WattProd = "/dev/shm/metern1.txt"
 met_P = "1"
 smtp_S = "smtp.gmail.com"
