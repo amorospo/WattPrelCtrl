@@ -1,0 +1,11 @@
+[Unit]
+Description=Withdrawal monitoring email warnings 
+After=network.target metern.service
+
+[Service]
+Type=simple
+ExecStart=/var/www/MyScripts/WattPrelCtrl/StartService.sh
+
+[Install]
+WantedBy=multi-user.target
+
