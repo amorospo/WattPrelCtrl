@@ -77,12 +77,12 @@ while file_C.startswith(met_C) and file_P.startswith(met_P) is True:
                        	        	break
 
 	#routine Low Whitdrawal alarm
-	elif WattPrel_num > Sw_Off and WattPrel_num <= LowW:	
+	elif WattPrel_num <= LowW:	
         	msg_sbj = 'Whitdrawal anomaly'			#Email subject
                	msg_obj = ('Warning! Whitdrawal is too low : {0:0.1f} Watt'.format(WattPrel_num))	#Email text
 		send_msg()
 		while True:
-   	   		if WattPrel_num > Sw_Off and WattPrel_num <= LowW:				
+   	   		if WattPrel_num <= LowW:				
 	               		time.sleep(5)
 				WattCons_num = float((linecache.getline(WattCons,1)).replace((''.join([met_C,"("]))," ").replace("*W)"," ").strip())
         			WattProd_num = float((linecache.getline(WattProd,1)).replace((''.join([met_P,"("]))," ").replace("*W)"," ").strip())
