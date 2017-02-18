@@ -11,6 +11,7 @@ Prima di installare e far partire lo script bisogna settare meterN per creare an
 file_put_contents("/run/shm/prodpower$METERID.txt", "$METERID($GP*W\n");
 
 tra la riga:         if ($argv[1] == 'power') {
+
 e la riga:           echo "$METERID($GP*W)\n";
 
 
