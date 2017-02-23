@@ -10,7 +10,7 @@ Prima di installare e far partire lo script bisogna settare meterN per creare an
 
 file_put_contents("/dev/shm/prodpower$METERID.txt", "$METERID($GP**W\n");<br><br>
 tra la riga______________________: if ($argv[1] == 'power') {<br>
-e la riga________________________: echo "$METERID($GP*W)\n";<br><br>
+e la riga________________________: echo "$METERID($GP**W)\n";<br><br>
 Per installare lo script:
 
 sudo -s<br>
